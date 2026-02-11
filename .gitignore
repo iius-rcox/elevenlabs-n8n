@@ -1,8 +1,33 @@
-node_modules
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment variables
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+Desktop.ini
 .DS_Store
-.tmp
-tmp
-dist
-npm-debug.log*
-yarn.lock
-.vscode/launch.json
+
+# Project outputs
+output/
+*.wav
+*.mp3
