@@ -31,3 +31,9 @@ Desktop.ini
 output/
 *.wav
 *.mp3
+
+# Working files (local/output, do not commit)
+batch_output.txt
+test_output.txt
+temp_frames/
+nul
